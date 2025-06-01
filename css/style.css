@@ -1,0 +1,22 @@
+* {
+    font-family: 'Arial';
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline;
+    padding-left: 20px;
+}
+
+.navbar {
+    background-color: #6f6f6f;
+    display: flex;
+    justify-content: space-around;
+}
