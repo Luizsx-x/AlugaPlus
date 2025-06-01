@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
-    font-family: 'Arial';
+    font-family: 'Raleway';
     box-sizing: border-box;
 }
 
@@ -39,8 +41,21 @@ li a {
     text-align: center;
     padding: 0.75rem 1rem; 
     text-decoration: none;
+        border-radius: 30px;
 }
 
 li a:hover {
     background-color: #111;
+}
+
+.top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 30px;
+}
+
+.top h1 {
+    font-size: 20px;
 }
