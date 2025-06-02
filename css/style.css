@@ -1,12 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
-
 * {
     font-family: 'Raleway';
     box-sizing: border-box;
 }
 
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: #333;
     margin: 0;
     padding: 0;
 }
@@ -41,11 +39,13 @@ li a {
     text-align: center;
     padding: 0.75rem 1rem; 
     text-decoration: none;
-        border-radius: 30px;
+    border-radius: 50px;
+    transition: 0.3s;
 }
 
 li a:hover {
     background-color: #111;
+    transform: scale(1.1);
 }
 
 .top {
@@ -53,11 +53,94 @@ li a:hover {
     justify-content: center;
     align-items: center;
     background-color: #fff;
-    padding: 30px;
+    padding: 10px;
 }
 
 .top p {
     font-size: 20px;
     color: #111;
     text-decoration: none;
+}
+
+.container {
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto; 
+    flex-wrap: wrap;
+    gap: 10px; 
+    margin-top: 40px;
+}
+
+.pesados {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.eletricos {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.estruturas {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    width: 160px;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.medicao {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.seguranca {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    width: 160px;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.manuais {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+p { 
+    text-align: center;
+}
+
+img {
+    width: 100px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    color: #111;
 }
